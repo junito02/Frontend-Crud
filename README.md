@@ -1,12 +1,22 @@
-# React + Vite
+# 📌 API de Usuarios – Backend con Node.js + MySQL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **API RESTful** desarrollada con **Node.js, Express y MySQL**.  
+Se encarga de gestionar usuarios con operaciones CRUD (Crear, Leer, Actualizar, Eliminar).
 
-Currently, two official plugins are available:
+👉 Repositorio Backend: [junito02/Backed-mysql-v1](https://github.com/junito02/Backed-mysql-v1)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías usadas
+- **Node.js** con Express
+- **MySQL** (mysql2 con conexión vía Pool)
+- **dotenv** para manejo de variables de entorno
+- **Railway** para despliegue en producción
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Endpoints principales
+
+### 🔹 Obtener todos los usuarios
+```http
+GET /api/users
